@@ -124,6 +124,11 @@ header .jumbotron img {
 }
 .footer-top .container .list li {
   color: lightgrey;
+  font-size: 13px;
+  padding-bottom: 2px;
+}
+.footer-top .container .list li h3 {
+  font-size: 20px;
 }
 .footer-top .container .list ul {
   padding-right: 40px;

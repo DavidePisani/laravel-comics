@@ -44,6 +44,9 @@
                     <li>Lorem ipsum</li>
                 </ul> 
             </div>
+            <div class="bg-img"></div>
+               
+            
         
         </div>
     </div>
@@ -56,11 +59,11 @@
 
            <div class="social">
             <h3>FOLLOW US</h3>
+            <span><img src="{{asset('img/footer-facebook.png')}}" alt=""></span>
             <span><img src="{{asset('img/footer-twitter.png')}}" alt=""></span>
-            <span><img src="{{asset('img/footer-twitter.png')}}" alt=""></span>
-            <span><img src="{{asset('img/footer-twitter.png')}}" alt=""></span>
-            <span><img src="{{asset('img/footer-twitter.png')}}" alt=""></span>
-            <span><img src="{{asset('img/footer-twitter.png')}}" alt=""></span>
+            <span><img src="{{asset('img/footer-youtube.png')}}" alt=""></span>
+            <span><img src="{{asset('img/footer-pinterest.png')}}" alt=""></span>
+            <span><img src="{{asset('img/footer-periscope.png')}}" alt=""></span>
 
            </div>
         </div>
