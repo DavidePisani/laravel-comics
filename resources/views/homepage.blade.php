@@ -22,4 +22,38 @@
         </div>
     </div>
 </section>
+    
+<section class="merch">
+    <div class="container-merch">
+        <span>
+            <img src={{asset('img/buy-comics-digital-comics.png')}} alt="Dc logo">
+
+            <a href="#">DIGITAL COMICS</a>
+        </span>
+
+        <span>
+            <img src={{asset('img/buy-comics-merchandise.png')}} alt="Dc logo">
+
+            <a href="#">DIGITAL COMICS</a>
+        </span>
+
+        <span>
+            <img src={{asset('img/buy-comics-subscriptions.png')}} alt="Dc logo">
+
+            <a href="#">DIGITAL COMICS</a>
+        </span>
+
+        <span>
+            <img src={{asset('img/buy-comics-shop-locator.png')}} alt="Dc logo">
+
+            <a href="#">DIGITAL COMICS</a>
+        </span>
+
+        <span>
+            <img src={{asset('img/buy-dc-power-visa.svg')}} alt="Dc logo">
+
+            <a href="#">DIGITAL COMICS</a>
+        </span>
+    </div>
+</section>
 @endsection

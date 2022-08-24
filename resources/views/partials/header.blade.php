@@ -1,7 +1,14 @@
 <header>
+   
     <!-- Header logo -->
-    
+    <div class="header-top">
+        <div class="container-top">
+            <span>DC POWER VISA</span>
+            <span>ADDICTIONAL DC SITES</span>
+        </div>
+     </div>
     <div class="container">
+       
         <div class="logo">
             <img src="{{asset('img/dc-logo.png')}}" alt="Dc logo">
         </div>
@@ -50,6 +57,10 @@
                 </li>
             </ul>
         </nav>
+
+        <div class="btn">
+            search <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
     </div>
 
     <section class="jumbotron">
