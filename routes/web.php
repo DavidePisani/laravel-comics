@@ -19,7 +19,7 @@ Route::get('/', function () {
         'comics_array' => config('comics')
     ];
     return view('comics', $data);
-});
+})->name('comics');
 
 Route::get('/single-comics/{id}', function ($id) {
    

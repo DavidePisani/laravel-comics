@@ -42,5 +42,73 @@ COMICS
         </div>
     </div>
 </section>
+
+<section class="bg-grey">
+    <div class="product-info">
+        <div class="product-info-cont">
+            <h3>Talent</h3>
+            <div class="talent-description">
+                <div class="col-small">
+                  <span class="secondary-color">Art By:</span>       
+                </div>
+                <div class="col-big">
+                  @foreach ( $comics['artists']  as $talent)
+                    <span class="primary-color">{{$talent}}</span>
+                    @if(!$loop->last), @endif
+                  @endforeach
+                </div>
+            </div>
+
+            <div class="talent-description">
+                <div class="col-small">
+                  <span class="secondary-color">Written By:</span>       
+                </div>
+                <div class="col-big">
+                  @foreach ( $comics['writers']  as $talent)
+                    <span class="primary-color">{{$talent}}</span>
+                    @if(!$loop->last), @endif
+                  @endforeach
+                </div>
+            </div>
+        </div>
+    
+        <div class="spec-info-cont">
+            <h3>Specs</h3>
+            <div class="talent-description">
+                <div class="col-small">
+                    <span class="secondary-color">Series :</span>
+                </div>
+                <div class="col-big">
+                    <span class="primary-color">{{$comics['series']}}</span>
+                </div>
+            </div>
+
+            <div class="talent-description">
+                <div class="col-small">
+                    <span class="secondary-color">U.S. Price:</span>
+                </div>
+                <div class="col-big">
+                    <span>{{$comics['price']}}</span>
+                </div>
+            </div>
+
+            <div class="talent-description">
+                <div class="col-small">
+                    <span class="secondary-color">On Sale Date:</span>
+                </div>
+                <div class="col-big">
+                    <span>{{$comics['sale_date']}}</span>
+                </div>
+            </div>
+            
+    
+        </div>
+
+    </div>
+    
+
+
+
+</section>
     
 @endsection

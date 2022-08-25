@@ -152,7 +152,7 @@ header .jumbotron img {
   padding-left: 10px;
 }
 .product-component .product-description .descpition-section .comics-description {
-  font-size: 13px;
+  font-size: 15px;
   color: #303030;
 }
 .product-component .product-description .apply-now h4 {
@@ -160,6 +160,54 @@ header .jumbotron img {
   text-transform: uppercase;
   font-size: 13px;
   color: #303030;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+  border-top: 2px solid lightgray;
+}
+.bg-grey .product-info {
+  width: 56%;
+  margin: 0 auto;
+  display: flex;
+}
+.bg-grey .product-info .product-info-cont {
+  width: 48%;
+  margin: 0 auto;
+  padding-block: 20px 130px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.bg-grey .product-info .col-small {
+  width: 30%;
+}
+.bg-grey .product-info .col-big {
+  width: 60%;
+}
+.bg-grey .product-info .talent-description {
+  display: flex;
+  padding-block: 8px;
+  border-bottom: 1px solid #e8e8e8;
+  flex-wrap: wrap;
+}
+.bg-grey .product-info h3 {
+  padding-bottom: 26px;
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 20px;
+  color: #003f5e;
+}
+.bg-grey .product-info .primary-color {
+  color: #0282f9;
+}
+.bg-grey .product-info .secondary-color {
+  color: #303030;
+}
+.bg-grey .spec-info-cont {
+  width: 48%;
+  margin: 0 auto;
+  padding-block: 20px 130px;
+  justify-content: space-between;
+  font-size: 14px;
 }
 
 .comics-list {

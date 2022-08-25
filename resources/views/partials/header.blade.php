@@ -20,8 +20,8 @@
                     <a href="#">CHARACTERS</a>
                 </li>
 
-                <li class="current">
-                    <a href="#">COMICS</a>
+                <li class="{{ Route::current()->getName() === 'comics' ? 'current' : '' }}">
+                    <a href="{{ route('comics') }}">COMICS</a>
                 </li>
 
                 <li>
@@ -52,8 +52,8 @@
                     <a href="#">NEWS</a>
                 </li>
 
-                <li>
-                    <a href="#">SHOP</a>
+                <li class="{{ Route::current()->getName() === 'single-comics' ? 'current' : '' }}">
+                    <a  href="#">SHOP</a>
                 </li>
             </ul>
         </nav>
