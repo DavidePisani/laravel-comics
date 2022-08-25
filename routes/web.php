@@ -18,5 +18,5 @@ Route::get('/', function () {
     $data = [
         'comics_array' => config('comics')
     ];
-    return view('homepage', $data);
+    return view('comics', $data);
 });

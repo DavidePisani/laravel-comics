@@ -20,7 +20,7 @@
                     <a href="#">CHARACTERS</a>
                 </li>
 
-                <li>
+                <li class="current">
                     <a href="#">COMICS</a>
                 </li>
 

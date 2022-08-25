@@ -1,4 +1,9 @@
 @extends('layout.app')
+@section('page-title')
+DC-COMICS
+@endsection
+
+
 @section('main_content')
 <section class="comics-list">
     <div class="container">
