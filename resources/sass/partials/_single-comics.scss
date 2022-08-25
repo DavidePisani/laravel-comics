@@ -1,0 +1,97 @@
+.product-component{
+
+    .img-box{
+        position: relative;
+        background-color: $brand_primary_color;
+        height: 70px;
+
+        .comic-cover{
+            position: absolute;
+            left: 420px;
+            bottom: 15px;
+            border: 1px solid white;
+        }
+
+        .comic-desc{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #00a9d9;
+            padding: 2px 4px;
+            color: white;
+            font-size: 15px;
+        }
+
+        .gallery{
+            background-color: #00a9d9;
+            padding: 2px 4px;
+            color: white;
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+
+    .product-description{
+        display: flex;
+        width: 58%;
+        margin: 0 auto;
+        padding-block: 70px;
+
+        .descpition-section{
+            width: 70%;
+            padding-right: 40px;
+      
+            h1{
+              color: #003f5e;
+              font-size: 20px;
+              text-transform: uppercase;
+            }
+            
+            .availability{
+                margin-block: 20px;
+                width: 100%;
+                display: flex;
+
+                .price{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-inline: 10px;
+                    background-color: #339c36;
+    
+                    .us-price{
+                        padding-right: 100px;
+                    }
+                  }
+                
+                  .aviability-box{
+                    display: flex;
+                    border-left: 1px solid black;
+                    background-color: #339c36;
+                    padding: 15px;
+                    align-items: center;
+                    color: white;
+                    
+                    i{
+                      padding-left: 10px;
+                    }
+                  }
+            }
+
+            .comics-description{
+                font-size: 13px;
+                color: $brand_secondary_color;
+            }   
+        }
+
+        .apply-now{
+            h4{
+                text-align: right;
+                text-transform: uppercase;
+                font-size: 13px;
+                color: $brand_secondary_color;
+            }
+        }
+    }
+}
